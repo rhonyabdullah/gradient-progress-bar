@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:GradientProgressView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Random Value" />
+
+    <com.codejam.gradientprogressbar.custom.GradientProgressBar
+        android:id="@+id/spring_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        GradientProgressView:currentCount="100"
+        GradientProgressView:height="30dp"
+        GradientProgressView:maxCount="100"
+        GradientProgressView:padding_bottom="10dp"
+        GradientProgressView:padding_left="10dp" />
+
+</LinearLayout>

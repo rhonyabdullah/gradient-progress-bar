@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GradientProgressView">
+        <attr name="maxCount" format="float"/>
+        <attr name="currentCount" format="float"/>
+        <attr name="height" format="dimension"/>
+        <attr name="padding_bottom" format="dimension"/>
+        <attr name="padding_left" format="dimension"/>
+    </declare-styleable>
+
+</resources>
